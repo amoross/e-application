@@ -7,8 +7,8 @@
         <article>
             <h2>{{ article.title }}</h2>
             <div class="metadata" > Ecrit le {{ article.createdAt | date('d/m/y')}}  à
-                {{ article.createdAt | date('H:i')}}dans le categorie
-            politique</div>
+                {{ article.createdAt | date('H:i')}}dans le categorie {{ article.category.title }}
+            </div>
             <div class="content">
                 <img src="{{ article.image }}" alt="">
                 {{ article.content | raw}}

@@ -3,6 +3,8 @@
 namespace App\DataFixtures;
 
 use App\Entity\Article;
+use App\Entity\Category;
+use App\Entity\Comment;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 
@@ -10,15 +12,52 @@ class ArticleFixtures extends Fixture
 {
     public function load(ObjectManager $manager)
     {
-        for($i=0; $i <=10; $i++){
-            $article=new Article();
-            $article->setTitle("Titre de l'article n$i")
-                    ->setContent("<p>contenu de l'article n$i </p>")
-                    ->setImage("http://placehold.it/350x150")
-                    ->setCreatedAt(new \DateTime());
-            $manager->persist($article);
-        }
+        //creer 3 fack  category
+        $faker = \Faker\Factory::create('fr_FR');
+        for ($i=0; $i<=3; $i++) {
+            $category = new Category();
+            $category->setTitle($faker->sentence())
+                ->setDescription($faker->paragraph());
 
+            $manager->persist($category);
+
+            //creer en 4 et 6 articles
+
+            for ($j = 0; $j <= mt_rand(4,6); $j++) {
+                $content= '<p>'. join($faker->paragraphs(5), '</p> <p>') . '</p>';
+
+                $article = new Article();
+                $article->setTitle($faker->sentence())
+                    ->setContent($content)
+                    ->setImage($faker->imageUrl())
+                    ->setCreatedAt($faker->dateTimeBetween('-6 months'))
+                    ->setCategory($category);
+
+                $manager->persist($article);
+
+
+                //Commentaire
+
+                for ($k=0; $k<= mt_rand(4,10);$k++) {
+                    $content = '<p>' . join($faker->paragraphs(2), '</p> <p>') . '</p>';
+
+                    $now = new \DateTime();
+                    $interval = $now->diff($article->getCreatedAt());
+                    $days = $interval->days;
+
+                    $minimum = '-' . $days . 'day';
+
+                    $comment = new Comment();
+                    $comment->setAuthor($faker->name)
+                        ->setContent($content)
+                        ->setCreateAt($faker->dateTimeBetween($minimum))
+                        ->setRelation($article);
+
+                    $manager->persist($comment);
+                }
+
+            }
+        }
         $manager->flush();
     }
 }

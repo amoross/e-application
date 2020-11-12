@@ -11,11 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae972d2b-cd73-4aef-9b3e-dabb9dbbba57" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/my_blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ControllerBlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ControllerBlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/ArticleType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ArticleType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/controller_blog/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controller_blog/create.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/controller_blog/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controller_blog/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/controller_blog/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controller_blog/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +142,7 @@
       <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jsJvCUVkqMEn2MPD7bBbRty9tl" />
@@ -145,6 +155,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -158,6 +169,10 @@
       <workItem from="1604587099010" duration="19186000" />
       <workItem from="1604692856045" duration="6863000" />
       <workItem from="1604704707056" duration="4862000" />
+      <workItem from="1604789604644" duration="941000" />
+      <workItem from="1604828474887" duration="15557000" />
+      <workItem from="1605089459126" duration="2850000" />
+      <workItem from="1605185320859" duration="7726000" />
     </task>
     <servers />
   </component>
@@ -187,5 +202,13 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="456" y="276" width="444" height="249" key="#Composer/0.27.1366.741@0.27.1366.741" timestamp="1604589503663" />
+    <state x="472" y="78" width="412" height="645" key="#com.intellij.ide.util.MemberChooser" timestamp="1604853769758">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="472" y="78" width="412" height="645" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1604853769758" />
+    <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604851889709">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1604851889709" />
   </component>
 </project>
