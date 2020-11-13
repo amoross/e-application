@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae972d2b-cd73-4aef-9b3e-dabb9dbbba57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +160,7 @@
       <workItem from="1604789604644" duration="941000" />
       <workItem from="1604828474887" duration="15557000" />
       <workItem from="1605089459126" duration="2850000" />
-      <workItem from="1605185320859" duration="11860000" />
+      <workItem from="1605185320859" duration="12566000" />
     </task>
     <servers />
   </component>
