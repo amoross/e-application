@@ -5,9 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae972d2b-cd73-4aef-9b3e-dabb9dbbba57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ae972d2b-cd73-4aef-9b3e-dabb9dbbba57" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,6 +129,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1jsJvCUVkqMEn2MPD7bBbRty9tl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -161,6 +160,7 @@
       <workItem from="1605631844209" duration="1287000" />
       <workItem from="1605867352751" duration="5100000" />
       <workItem from="1606043662678" duration="6506000" />
+      <workItem from="1606312655119" duration="45000" />
     </task>
     <servers />
   </component>
